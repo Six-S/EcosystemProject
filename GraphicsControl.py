@@ -16,7 +16,7 @@ label = pyglet.text.Label('Hello world',
 
 @window.event
 def on_key_press(symbol, modifiers):
-    print 'we out here.', symbol
+    print ('we out here.', symbol)
 
 @window.event
 def on_draw():
